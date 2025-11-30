@@ -1,0 +1,15 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Blog Home</h1>
+  <p>
+    Welcome to this untitled Blog site! 
+    <em>Made by Aseel Ottallah</em>!
+  </p>
+  
+  <p>the following are the current number of blogs and bloggers:</p>
+  <ul>
+    <li><strong>Blogs:</strong> {{ num_blogs }}</li>
+    <li><strong>Bloggers:</strong> {{ num_authors }}</li>
+  </ul>
+{% endblock %}
