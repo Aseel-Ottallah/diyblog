@@ -25,6 +25,7 @@ class BlogListView(generic.ListView):
     paginate_by = 5
     class meta:
          ordering = ['-pub_date']
+   
 
 class BlogDetailView(generic.DetailView):
     model = Blog
