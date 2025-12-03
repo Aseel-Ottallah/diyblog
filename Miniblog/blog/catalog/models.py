@@ -13,8 +13,7 @@ class Blog(models.Model):
     pub_date = models.DateTimeField()
     #comment = models.ForeignKey('Comment', null=True, on_delete=models.SET_NULL)
 
-    class meta:
-         ordering = ['pub_date']
+
 
     def __str__(self):
             """String for representing the Model object."""
